@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>assets/icon/add_oil.png</file>
+        <file>assets/icon/clear_icon.png</file>
+        <file>assets/icon/exchange_oil.png</file>
+        <file>assets/icon/heating_icon.png</file>
+        <file>assets/icon/leak_oil.png</file>
+        <file>assets/icon/oil_old.png</file>
+        <file>assets/icon/print_icon.png</file>
+        <file>assets/icon/replace_icon.png</file>
+        <file>assets/icon/weigh_icon.png</file>
+        <file>assets/icon/background.png</file>
+        <file>assets/icon/setting_icon.png</file>
+    </qresource>
+</RCC>
