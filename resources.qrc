@@ -9,7 +9,7 @@
         <file>assets/icon/print_icon.png</file>
         <file>assets/icon/replace_icon.png</file>
         <file>assets/icon/weigh_icon.png</file>
-        <file>assets/icon/background.png</file>
         <file>assets/icon/setting_icon.png</file>
+        <file>assets/icon/background.png</file>
     </qresource>
 </RCC>
