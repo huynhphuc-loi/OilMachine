@@ -18,7 +18,12 @@ void HomePage::on_tuanHoanBtn_clicked()
     ui->stackedWidget->setCurrentWidget(ui->TuanHoanPage);
 }
 
-void HomePage::on_backReplaceOil_clicked()
+void HomePage::on_TuanHoan_backBtn_clicked()
 {
     ui->stackedWidget->setCurrentWidget(ui->MenuPage);
+}
+
+void HomePage::on_TuanHoan_nextBtn_clicked()
+{
+    // ui->stackedWidget->setCurrentWidget(ui->MenuPage);
 }

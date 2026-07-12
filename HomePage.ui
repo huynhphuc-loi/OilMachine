@@ -1107,70 +1107,10 @@ QPushButton:pressed
         <x>0</x>
         <y>0</y>
         <width>1021</width>
-        <height>601</height>
+        <height>491</height>
        </rect>
       </property>
       <widget class="QWidget" name="SelectVendor">
-       <widget class="QPushButton" name="backReplaceOil">
-        <property name="geometry">
-         <rect>
-          <x>30</x>
-          <y>510</y>
-          <width>150</width>
-          <height>70</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
-    background-color: rgb(230,140,20);
-
-    border: 1px solid rgb(255,190,80);
-    border-radius: 18px;
-
-    color: white;
-
-    font-size: 22px;
-    font-weight: bold;
-}</string>
-        </property>
-        <property name="text">
-         <string>Quay Lại</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="pushButton_3">
-        <property name="geometry">
-         <rect>
-          <x>830</x>
-          <y>510</y>
-          <width>150</width>
-          <height>70</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
-    background-color: rgb(0,180,90);
-
-    border: 1px solid rgb(50,255,150);
-    border-radius: 18px;
-
-    color: white;
-
-    font-size: 24px;
-    font-weight: bold;
-}
-
-QPushButton:hover {
-    background-color: rgb(0,210,100);
-}
-
-QPushButton:pressed {
-    background-color: rgb(0,140,70);
-}</string>
-        </property>
-        <property name="text">
-         <string>Tiếp theo</string>
-        </property>
-       </widget>
        <widget class="QWidget" name="gridLayoutWidget_2">
         <property name="geometry">
          <rect>
@@ -1630,6 +1570,74 @@ QPushButton:checked {
        </widget>
       </widget>
       <widget class="QWidget" name="page_2"/>
+     </widget>
+     <widget class="QPushButton" name="TuanHoan_backBtn">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>510</y>
+        <width>150</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: rgb(230,140,20);
+
+    border: 1px solid rgb(255,190,80);
+    border-radius: 18px;
+
+    color: white;
+
+    font-size: 22px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: rgb(230,170,80);
+}
+
+QPushButton:pressed {
+    background-color: rgb(230,170,80);
+}</string>
+      </property>
+      <property name="text">
+       <string>Quay Lại</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="TuanHoan_nextBtn">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>510</y>
+        <width>150</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: rgb(0,180,90);
+
+    border: 1px solid rgb(50,255,150);
+    border-radius: 18px;
+
+    color: white;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: rgb(0,210,100);
+}
+
+QPushButton:pressed {
+    background-color: rgb(0,140,70);
+}</string>
+      </property>
+      <property name="text">
+       <string>Tiếp theo</string>
+      </property>
      </widget>
     </widget>
    </widget>

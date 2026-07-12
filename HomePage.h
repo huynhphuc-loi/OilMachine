@@ -19,7 +19,8 @@ public:
 
 private slots:
     void on_tuanHoanBtn_clicked();
-    void on_backReplaceOil_clicked();
+    void on_TuanHoan_backBtn_clicked();
+    void on_TuanHoan_nextBtn_clicked();
 
 private:
     Ui::HomePage *ui;
