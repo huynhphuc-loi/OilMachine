@@ -1,14 +1,24 @@
 #include "HomePage.h"
-#include "./ui_HomePage.h"
+#include "ui_HomePage.h"
 
-MainWindow::MainWindow(QWidget *parent)
+HomePage::HomePage(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
+    , ui(new Ui::HomePage)
 {
     ui->setupUi(this);
 }
 
-MainWindow::~MainWindow()
+HomePage::~HomePage()
 {
     delete ui;
+}
+
+void HomePage::on_tuanHoanBtn_clicked()
+{
+    ui->stackedWidget->setCurrentWidget(ui->TuanHoanPage);
+}
+
+void HomePage::on_backReplaceOil_clicked()
+{
+    ui->stackedWidget->setCurrentWidget(ui->MenuPage);
 }

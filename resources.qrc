@@ -11,5 +11,16 @@
         <file>assets/icon/weigh_icon.png</file>
         <file>assets/icon/setting_icon.png</file>
         <file>assets/icon/background.png</file>
+        <file>assets/icon/back.png</file>
+    </qresource>
+    <qresource prefix="/logo">
+        <file>assets/logo/honda.png</file>
+        <file>assets/logo/hyundai.png</file>
+        <file>assets/logo/mitsubishi.png</file>
+        <file>assets/logo/nissan.png</file>
+        <file>assets/logo/toyota.png</file>
+        <file>assets/logo/ford.png</file>
+        <file>assets/logo/kia.png</file>
+        <file>assets/logo/suzuki.png</file>
     </qresource>
 </RCC>

@@ -5,19 +5,24 @@
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
-class MainWindow;
+class HomePage;
 }
 QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow
+class HomePage : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    explicit MainWindow(QWidget *parent = nullptr);
-    ~MainWindow() override;
+    explicit HomePage(QWidget *parent = nullptr);
+    ~HomePage() override;
+
+private slots:
+    void on_tuanHoanBtn_clicked();
+    void on_backReplaceOil_clicked();
 
 private:
-    Ui::MainWindow *ui;
+    Ui::HomePage *ui;
 };
+
 #endif // HOMEPAGE_H
